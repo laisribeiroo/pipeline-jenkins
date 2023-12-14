@@ -29,16 +29,15 @@ sudo usermod -aG docker jenkins
 
 # Configuração da Pipeline passo a passo:
 
-1. Faça login no Jenkins e em seguida, clique em `+ Novo Tarefa`.
-2. Nomeie a sua pipeline.
-3. Escolha `pipeline` nas opções e selecione `Tudo certo`.
-4. Navegue até a seção `Pipeline`.
-5. Em 'Definição', clique em 'Pipeline script' e selecione a 'Pipeline script from SCM'.
-6. Em 'SCM', escolha 'git'. Em seguida coloque no campo certo a URL desse projeto: 
+1. Faça login no Jenkins e em seguida, clique em `+ Novo Tarefa`, e assim, nomeie a sua pipeline.
+2. Escolha `pipeline` nas opções e selecione `Tudo certo`.
+3. Navegue até a seção `Pipeline`.
+4. Em 'Definição', clique em 'Pipeline script' e selecione a 'Pipeline script from SCM'.
+5. Em 'SCM', escolha 'git'. Em seguida coloque no campo certo a URL desse projeto: 
 
 `https://github.com/laisribeiroo/pipeline-jenkins.git` 
 
-7. Em `Branch Specifier`, insira o nome da branch que você quer e depois clique em `Salvar` para concluir.
+6. Já na `Branch Specifier`, insira o nome da branch que você quer e depois clique em `Salvar` para concluir.
 
 Com esses passos feitos, a pipeline estará configrada.
 
@@ -46,8 +45,8 @@ Com esses passos feitos, a pipeline estará configrada.
 
 Para executar a pipeline:
 
-1. Após criar a pipeline, no lado direito, localize e clique em `Construir agora`.
+1. Após criar a pipeline, clique em `Construir agora`.
 
-2. Em seguida, clique em `Open Blue Ocean`  para gerenciar a pipeline com uma interface gráfica mais intuitiva.
+2. Em seguida, clique em `Open Blue Ocean`  para gerenciar a pipeline.
 
 3. E Pronto!
