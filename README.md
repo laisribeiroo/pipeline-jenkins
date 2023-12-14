@@ -22,13 +22,9 @@ sudo chmod 777 docker.sock
 ```
 useradd jenkins
 ```
-4. Inclua o usuário '`jenkins` no grupo `docker`. Isso permitirá que o `jenkins` execute comandos Docker sem necessidade de `sudo`:
+4. Inclua o usuário '`jenkins` no grupo `docker`.
 ```
 sudo usermod -aG docker jenkins
-```
-5. Verifique se o usuário `jenkins` foi corretamente adicionado ao grupo `docker`:
-```
-grep docker /etc/group
 ```
 
 # Configuração da Pipeline:
