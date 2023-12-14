@@ -37,7 +37,7 @@ sudo usermod -aG docker jenkins
 
 `https://github.com/laisribeiroo/pipeline-jenkins.git` 
 
-6. Já na `Branch Specifier`, insira o nome da branch que você quer e depois clique em `Salvar` para concluir.
+6. Já na `Branch Specifier`, insira o nome da branch que você quer e depois é só salvar, para concluir.
 
 Com esses passos feitos, a pipeline estará configrada.
 
